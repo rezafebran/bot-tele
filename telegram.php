@@ -1,7 +1,7 @@
 <?php
 $telegram_id = $_POST['chatid'];
 $message_text = $_POST['pesan'];
-$secret_token = '2136716433:AAGJYfY2QeQfJVmMEPorKVWEVMBho7K9tdQ';
+$secret_token = ''; //pake token bot tele kalen
 sendMessage($telegram_id, $message_text, $secret_token);
 
 function sendMessage($telegram_id, $message_text, $secret_token) {
